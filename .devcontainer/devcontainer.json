@@ -1,0 +1,14 @@
+{
+    "name": "legendary-palm-tree devcontainer",
+    "dockerComposeFile": "docker-compose.yaml",
+    "service": "go",
+    "workspaceFolder": "/workspace",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	}
+}
